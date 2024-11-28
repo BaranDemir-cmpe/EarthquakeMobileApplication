@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sonDepremlerFragment">
+
+    <fragment
+        android:id="@+id/sonDepremlerFragment"
+        android:name="com.example.bitirmeprojesiversion4.SonDepremlerFragment"
+        android:label="Son Depremler" />
+
+    <fragment
+        android:id="@+id/toplanmaYerleriFragment"
+        android:name="com.example.bitirmeprojesiversion4.ToplanmaYerleriFragment"
+        android:label="Toplanma Yerleri" />
+
+    <fragment
+        android:id="@+id/yardimZiliFragment"
+        android:name="com.example.bitirmeprojesiversion4.YardimZiliFragment"
+        android:label="Yardım Zili" />
+
+    <fragment
+        android:id="@+id/hakkimizdaFragment"
+        android:name="com.example.bitirmeprojesiversion4.HakkimizdaFragment"
+        android:label="Hakkımızda" />
+
+</navigation>
